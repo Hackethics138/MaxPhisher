@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+    "setuptools>=58.0.4",
+    "wheel>=0.37.0"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "MaxPhisher"
+version = "1.2.1"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/KasRoudra/MaxPhisher/"
+include = ["README.md", "LICENSE", "files/email.json"]
+description = "A python phishing script for login phishing, image phishing, video phishing and many more"
+authors = ["KasRoudra <kasroudrakrd@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.3.0"
+beautifulsoup4 = "^4.12"
+rich = "^13.0.0"
+
+[tool.poetry.scripts]
+maxphisher = "maxphisher:main"
+
+[build-system.sdist]
+formats = ["gztar"]
+
+[build-system.bdist_wheel]
+universal = false
