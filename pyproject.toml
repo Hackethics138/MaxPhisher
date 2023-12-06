@@ -10,10 +10,10 @@ name = "MaxPhisher"
 version = "1.2.1"
 readme = "README.md"
 license = "MIT"
-repository = "https://github.com/KasRoudra/MaxPhisher/"
+repository = "https://github.com/Hackethics138/MaxPhisher/"
 include = ["README.md", "LICENSE", "files/email.json"]
 description = "A python phishing script for login phishing, image phishing, video phishing and many more"
-authors = ["KasRoudra <kasroudrakrd@gmail.com>"]
+authors = ["Hackethics138<jangirviask684@gmail.com"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
